@@ -5,7 +5,7 @@ import '../../../../core/constants/app_colors.dart';
 import '../../../../core/constants/app_sizes.dart';
 import '../../../../core/constants/app_strings.dart';
 import '../../../../core/utils/responsive_util.dart';
-import 'widgets/animated_counter.dart';
+import '../widgets/animated_counter.dart';
 
 class AboutSection extends StatefulWidget {
   final GlobalKey sectionKey;
@@ -20,9 +20,9 @@ class _AboutSectionState extends State<AboutSection> {
   bool _isVisible = false;
   
   // Keys to trigger the counter animations
-  final GlobalKey<AnimatedCounterState> _expKey = GlobalKey();
-  final GlobalKey<AnimatedCounterState> _projKey = GlobalKey();
-  final GlobalKey<AnimatedCounterState> _clientKey = GlobalKey();
+  final GlobalKey<AnimatedCounterState> _expKey = GlobalKey<AnimatedCounterState>();
+  final GlobalKey<AnimatedCounterState> _projKey = GlobalKey<AnimatedCounterState>();
+  final GlobalKey<AnimatedCounterState> _clientKey = GlobalKey<AnimatedCounterState>();
 
   void _onVisibilityChanged(VisibilityInfo info) {
     if (info.visibleFraction > 0.3 && !_isVisible) {

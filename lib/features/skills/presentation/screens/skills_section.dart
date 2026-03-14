@@ -7,8 +7,8 @@ import '../../../../core/constants/app_strings.dart';
 import '../../../../core/utils/responsive_util.dart';
 import '../../data/skills_data.dart';
 import '../../domain/models/skill_model.dart';
-import 'widgets/skill_card.dart';
-import 'widgets/tool_detail_panel.dart';
+import '../widgets/skill_card.dart';
+import '../widgets/tool_detail_panel.dart';
 
 class SkillsSection extends StatefulWidget {
   final GlobalKey sectionKey;

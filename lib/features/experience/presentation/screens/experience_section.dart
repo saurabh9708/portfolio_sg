@@ -6,7 +6,7 @@ import '../../../../core/constants/app_sizes.dart';
 import '../../../../core/constants/app_strings.dart';
 import '../../../../core/utils/responsive_util.dart';
 import '../../data/experience_data.dart';
-import 'widgets/experience_node.dart';
+import '../widgets/experience_node.dart';
 
 class ExperienceSection extends StatefulWidget {
   final GlobalKey sectionKey;

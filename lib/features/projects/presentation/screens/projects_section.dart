@@ -6,7 +6,7 @@ import '../../../../core/constants/app_sizes.dart';
 import '../../../../core/constants/app_strings.dart';
 import '../../../../core/utils/responsive_util.dart';
 import '../../data/projects_data.dart';
-import 'widgets/project_card.dart';
+import '../widgets/project_card.dart';
 
 class ProjectsSection extends StatefulWidget {
   final GlobalKey sectionKey;

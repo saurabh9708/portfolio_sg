@@ -1,12 +1,14 @@
 import 'package:flutter/material.dart';
+import 'dart:math';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:visibility_detector/visibility_detector.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import '../../../../core/constants/app_colors.dart';
 import '../../../../core/constants/app_sizes.dart';
 import '../../../../core/constants/app_strings.dart';
-import 'widgets/glass_text_field.dart';
-import 'widgets/glass_dropdown_field.dart';
+import '../../../../core/utils/responsive_util.dart';
+import '../widgets/glass_text_field.dart';
+import '../widgets/glass_dropdown_field.dart';
 
 class ContactSection extends StatefulWidget {
   final GlobalKey sectionKey;

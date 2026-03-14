@@ -1,0 +1,103 @@
+﻿
+   info - 'background' is deprecated and shouldn't be used. Use surface instead. This feature was deprecated after v3.18.0-0.1.pre - lib\core\theme\app_theme.dart:17:9 - deprecated_member_use
+  error - Target of URI doesn't exist: '../../constants/app_colors.dart' - lib\core\widgets\typewriter_text.dart:2:8 - uri_does_not_exist
+  error - Undefined name 'AppColors' - lib\core\widgets\typewriter_text.dart:89:20 - undefined_identifier
+  error - Target of URI doesn't exist: 'widgets/animated_counter.dart' - lib\features\about\presentation\screens\about_section.dart:8:8 - uri_does_not_exist
+  error - The name 'AnimatedCounterState' isn't a type, so it can't be used as a type argument - lib\features\about\presentation\screens\about_section.dart:23:19 - non_type_as_type_argument
+  error - The name 'AnimatedCounterState' isn't a type, so it can't be used as a type argument - lib\features\about\presentation\screens\about_section.dart:24:19 - non_type_as_type_argument
+  error - The name 'AnimatedCounterState' isn't a type, so it can't be used as a type argument - lib\features\about\presentation\screens\about_section.dart:25:19 - non_type_as_type_argument
+  error - The method 'AnimatedCounter' isn't defined for the type '_AboutSectionState' - lib\features\about\presentation\screens\about_section.dart:151:15 - undefined_method
+  error - The method 'AnimatedCounter' isn't defined for the type '_AboutSectionState' - lib\features\about\presentation\screens\about_section.dart:152:15 - undefined_method
+  error - The method 'AnimatedCounter' isn't defined for the type '_AboutSectionState' - lib\features\about\presentation\screens\about_section.dart:153:15 - undefined_method
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\about\presentation\screens\about_section.dart:197:28 - deprecated_member_use
+  error - Target of URI doesn't exist: 'widgets/glass_text_field.dart' - lib\features\contact\presentation\screens\contact_section.dart:8:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: 'widgets/glass_dropdown_field.dart' - lib\features\contact\presentation\screens\contact_section.dart:9:8 - uri_does_not_exist
+  error - The method 'sin' isn't defined for the type 'double' - lib\features\contact\presentation\screens\contact_section.dart:162:87 - undefined_method
+  error - The method 'GlassTextField' isn't defined for the type '_ContactSectionState' - lib\features\contact\presentation\screens\contact_section.dart:184:11 - undefined_method
+  error - The method 'GlassTextField' isn't defined for the type '_ContactSectionState' - lib\features\contact\presentation\screens\contact_section.dart:195:11 - undefined_method
+  error - The method 'GlassDropdownField' isn't defined for the type '_ContactSectionState' - lib\features\contact\presentation\screens\contact_section.dart:211:11 - undefined_method
+  error - The method 'GlassTextField' isn't defined for the type '_ContactSectionState' - lib\features\contact\presentation\screens\contact_section.dart:226:11 - undefined_method
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\contact\presentation\screens\contact_section.dart:283:41 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\contact\presentation\screens\contact_section.dart:285:58 - deprecated_member_use
+   info - 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre - lib\features\contact\presentation\widgets\glass_dropdown_field.dart:25:9 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\contact\presentation\widgets\glass_dropdown_field.dart:41:47 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\contact\presentation\widgets\glass_dropdown_field.dart:56:60 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\contact\presentation\widgets\glass_dropdown_field.dart:60:60 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\contact\presentation\widgets\glass_text_field.dart:41:47 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\contact\presentation\widgets\glass_text_field.dart:56:60 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\contact\presentation\widgets\glass_text_field.dart:60:60 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\experience\presentation\screens\experience_section.dart:206:42 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\experience\presentation\screens\experience_section.dart:253:39 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\experience\presentation\widgets\experience_node.dart:34:54 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\experience\presentation\widgets\experience_node.dart:34:98 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\experience\presentation\widgets\experience_node.dart:37:55 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\experience\presentation\widgets\experience_node.dart:42:50 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\experience\presentation\widgets\experience_node.dart:84:82 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\experience\presentation\widgets\experience_node.dart:89:56 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\experience\presentation\widgets\experience_node.dart:115:60 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\experience\presentation\widgets\experience_node.dart:135:54 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\experience\presentation\widgets\experience_node.dart:137:73 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\experience\presentation\widgets\experience_node.dart:160:38 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\experience\presentation\widgets\experience_node.dart:162:57 - deprecated_member_use
+  error - The named parameter 'isVertical' isn't defined - lib\features\footer\presentation\widgets\footer_section.dart:42:36 - undefined_named_parameter
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\footer\presentation\widgets\footer_section.dart:77:52 - deprecated_member_use
+  error - The named parameter 'isVertical' isn't defined - lib\features\footer\presentation\widgets\social_links_strip.dart:22:32 - undefined_named_parameter
+  error - Target of URI doesn't exist: 'widgets/animated_mesh_background.dart' - lib\features\hero_header\presentation\screens\hero_section.dart:8:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: 'widgets/profile_image_widget.dart' - lib\features\hero_header\presentation\screens\hero_section.dart:9:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: 'widgets/social_links_row.dart' - lib\features\hero_header\presentation\screens\hero_section.dart:10:8 - uri_does_not_exist
+  error - Invalid constant value - lib\features\hero_header\presentation\screens\hero_section.dart:28:20 - invalid_constant
+  error - The method 'AnimatedMeshBackground' isn't defined for the type 'HeroSection' - lib\features\hero_header\presentation\screens\hero_section.dart:28:20 - undefined_method
+  error - Invalid constant value - lib\features\hero_header\presentation\screens\hero_section.dart:69:20 - invalid_constant
+  error - The method 'ProfileImageWidget' isn't defined for the type 'HeroSection' - lib\features\hero_header\presentation\screens\hero_section.dart:69:20 - undefined_method
+  error - The name 'ProfileImageWidget' isn't a class - lib\features\hero_header\presentation\screens\hero_section.dart:81:15 - creation_with_non_type
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\hero_header\presentation\screens\hero_section.dart:101:42 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\hero_header\presentation\screens\hero_section.dart:103:61 - deprecated_member_use
+  error - The name 'SocialLinksRow' isn't a class - lib\features\hero_header\presentation\screens\hero_section.dart:179:15 - creation_with_non_type
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\hero_header\presentation\widgets\animated_mesh_background.dart:70:36 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\hero_header\presentation\widgets\animated_mesh_background.dart:82:40 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\hero_header\presentation\widgets\animated_mesh_background.dart:94:38 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\hero_header\presentation\widgets\profile_image_widget.dart:47:46 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\hero_header\presentation\widgets\social_links_row.dart:80:34 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\hero_header\presentation\widgets\social_links_row.dart:85:33 - deprecated_member_use
+  error - Target of URI doesn't exist: '../../hero_header/presentation/screens/hero_section.dart' - lib\features\navigation\presentation\screens\main_screen.dart:5:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: '../../about/presentation/screens/about_section.dart' - lib\features\navigation\presentation\screens\main_screen.dart:6:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: '../../skills/presentation/screens/skills_section.dart' - lib\features\navigation\presentation\screens\main_screen.dart:7:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: '../../projects/presentation/screens/projects_section.dart' - lib\features\navigation\presentation\screens\main_screen.dart:8:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: '../../experience/presentation/screens/experience_section.dart' - lib\features\navigation\presentation\screens\main_screen.dart:9:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: '../../contact/presentation/screens/contact_section.dart' - lib\features\navigation\presentation\screens\main_screen.dart:10:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: '../../footer/presentation/widgets/footer_section.dart' - lib\features\navigation\presentation\screens\main_screen.dart:11:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: '../../footer/presentation/widgets/social_links_strip.dart' - lib\features\navigation\presentation\screens\main_screen.dart:12:8 - uri_does_not_exist
+  error - The method 'HeroSection' isn't defined for the type '_MainScreenState' - lib\features\navigation\presentation\screens\main_screen.dart:88:21 - undefined_method
+  error - The method 'AboutSection' isn't defined for the type '_MainScreenState' - lib\features\navigation\presentation\screens\main_screen.dart:89:21 - undefined_method
+  error - The method 'SkillsSection' isn't defined for the type '_MainScreenState' - lib\features\navigation\presentation\screens\main_screen.dart:90:21 - undefined_method
+  error - The method 'ProjectsSection' isn't defined for the type '_MainScreenState' - lib\features\navigation\presentation\screens\main_screen.dart:91:21 - undefined_method
+  error - The method 'ExperienceSection' isn't defined for the type '_MainScreenState' - lib\features\navigation\presentation\screens\main_screen.dart:92:21 - undefined_method
+  error - The method 'ContactSection' isn't defined for the type '_MainScreenState' - lib\features\navigation\presentation\screens\main_screen.dart:93:21 - undefined_method
+  error - The name 'FooterSection' isn't a class - lib\features\navigation\presentation\screens\main_screen.dart:94:27 - creation_with_non_type
+  error - The name 'SocialLinksStrip' isn't a class - lib\features\navigation\presentation\screens\main_screen.dart:100:62 - creation_with_non_type
+warning - The declaration '_buildSectionPlaceholder' isn't referenced - lib\features\navigation\presentation\screens\main_screen.dart:134:10 - unused_element
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\navigation\presentation\screens\main_screen.dart:139:45 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\navigation\presentation\widgets\bottom_nav_bar.dart:29:39 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\navigation\presentation\widgets\bottom_nav_bar.dart:45:26 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\navigation\presentation\widgets\bottom_nav_bar.dart:86:83 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\navigation\presentation\widgets\top_nav_bar.dart:36:38 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\navigation\presentation\widgets\top_nav_bar.dart:48:26 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\navigation\presentation\widgets\top_nav_bar.dart:98:32 - deprecated_member_use
+   info - 'translate' is deprecated and shouldn't be used. Use translateByVector3, translateByVector4, or translateByDouble instead - lib\features\projects\presentation\widgets\project_card.dart:36:42 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\projects\presentation\widgets\project_card.dart:41:57 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\projects\presentation\widgets\project_card.dart:46:52 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\projects\presentation\widgets\project_card.dart:97:53 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\projects\presentation\widgets\project_card.dart:190:62 - deprecated_member_use
+warning - The value of the local variable 'categories' isn't used - lib\features\skills\presentation\screens\skills_section.dart:62:11 - unused_local_variable
+   info - 'translate' is deprecated and shouldn't be used. Use translateByVector3, translateByVector4, or translateByDouble instead - lib\features\skills\presentation\widgets\skill_card.dart:28:42 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\skills\presentation\widgets\skill_card.dart:30:56 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\skills\presentation\widgets\skill_card.dart:30:100 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\skills\presentation\widgets\skill_card.dart:33:57 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\skills\presentation\widgets\skill_card.dart:38:52 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\skills\presentation\widgets\skill_card.dart:49:30 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\skills\presentation\widgets\skill_card.dart:64:58 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\skills\presentation\widgets\skill_card.dart:77:62 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\skills\presentation\widgets\skill_card.dart:79:81 - deprecated_member_use
+  error - The method 'animate' isn't defined for the type 'Iterable' - lib\features\skills\presentation\widgets\tool_detail_panel.dart:69:18 - undefined_method
+  error - The method 'animate' isn't defined for the type 'Iterable' - lib\features\skills\presentation\widgets\tool_detail_panel.dart:98:18 - undefined_method
+
