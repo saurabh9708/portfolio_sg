@@ -7,6 +7,7 @@ class AppColors {
   static const Color cardBackground = Color(0xFF1A1A24);
 
   // Accents
+  static const Color primaryColor = Color(0xFF00E5FF); // Alias for primary accent
   static const Color accentColor = Color(0xFF00E5FF);
   static const Color secondaryAccent = Color(0xFF7B61FF);
 
