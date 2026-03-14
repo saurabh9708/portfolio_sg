@@ -24,7 +24,7 @@ class HeroSection extends StatelessWidget {
       child: Stack(
         children: [
           // Background
-          const Positioned.fill(
+          Positioned.fill(
             child: AnimatedMeshBackground(),
           ),
 
@@ -62,7 +62,7 @@ class HeroSection extends StatelessWidget {
         ),
         
         // Right Image Column
-        const Expanded(
+        Expanded(
           flex: 4,
           child: Align(
             alignment: Alignment.centerRight,
@@ -78,7 +78,7 @@ class HeroSection extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
         const SizedBox(height: AppSizes.sectionPaddingVMobile),
-        const ProfileImageWidget(),
+        ProfileImageWidget(),
         const SizedBox(height: 40),
         _buildTextContent(context, centered: true),
         const SizedBox(height: AppSizes.sectionPaddingVMobile),
@@ -176,7 +176,7 @@ class HeroSection extends StatelessWidget {
         const SizedBox(height: 48),
 
         // Social Links
-        const SocialLinksRow().animate().fadeIn(delay: 800.ms, duration: 600.ms),
+        SocialLinksRow().animate().fadeIn(delay: 800.ms, duration: 600.ms),
       ],
     );
   }
