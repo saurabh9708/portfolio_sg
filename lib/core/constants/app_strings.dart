@@ -30,4 +30,7 @@ class AppStrings {
 
   // Projects Section
   static const String projectsTitle = 'Live Projects';
+
+  // Experience Section
+  static const String experienceTitle = 'Career Journey';
 }

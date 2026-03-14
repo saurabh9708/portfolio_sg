@@ -5,6 +5,7 @@ import '../widgets/bottom_nav_bar.dart';
 import '../../hero_header/presentation/screens/hero_section.dart';
 import '../../about/presentation/screens/about_section.dart';
 import '../../skills/presentation/screens/skills_section.dart';
+import '../../projects/presentation/screens/projects_section.dart';
 
 class MainScreen extends StatefulWidget {
   const MainScreen({super.key});
@@ -80,8 +81,8 @@ class _MainScreenState extends State<MainScreen> {
                 HeroSection(sectionKey: _sectionKeys[0]),
                 AboutSection(sectionKey: _sectionKeys[1]),
                 SkillsSection(sectionKey: _sectionKeys[2]),
+                ProjectsSection(sectionKey: _sectionKeys[3]),
                 // Placeholders for sections until they are built
-                _buildSectionPlaceholder(3, 'Projects Section', 800),
                 _buildSectionPlaceholder(4, 'Contact Section', 700),
                 _buildSectionPlaceholder(5, 'Footer', 200, keyless: true),
               ],
