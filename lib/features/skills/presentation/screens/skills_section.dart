@@ -59,8 +59,6 @@ class _SkillsSectionState extends State<SkillsSection> {
 
   @override
   Widget build(BuildContext context) {
-    final categories = SkillsData.skills.map((s) => s.category).toSet().toList();
-
     return VisibilityDetector(
       key: const Key('skills-section'),
       onVisibilityChanged: _onVisibilityChanged,

@@ -66,7 +66,7 @@ class ToolDetailContent extends StatelessWidget {
                     ),
                   ],
                 ),
-              )).animate(interval: 50.ms).fadeIn(delay: 450.ms, duration: 400.ms),
+              )).toList().animate(interval: 50.ms).fadeIn(delay: 450.ms, duration: 400.ms),
 
           const SizedBox(height: 16),
 
@@ -95,7 +95,7 @@ class ToolDetailContent extends StatelessWidget {
                     ),
                   ],
                 ),
-              )).animate(interval: 50.ms).fadeIn(delay: 600.ms, duration: 400.ms),
+              )).toList().animate(interval: 50.ms).fadeIn(delay: 600.ms, duration: 400.ms),
 
           const SizedBox(height: 32),
 
