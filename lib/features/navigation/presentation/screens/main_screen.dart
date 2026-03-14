@@ -75,51 +75,58 @@ class _MainScreenState extends State<MainScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       extendBodyBehindAppBar: true,
-      body: Stack(
-        children: [
-          // Main Scroll View
-          SingleChildScrollView(
-            controller: _scrollController,
-            child: Column(
-              children: [
-                HeroSection(sectionKey: _sectionKeys[0]),
-                AboutSection(sectionKey: _sectionKeys[1]),
-                SkillsSection(sectionKey: _sectionKeys[2]),
-                ProjectsSection(sectionKey: _sectionKeys[3]),
-                ExperienceSection(sectionKey: _sectionKeys[4]),
-                ContactSection(sectionKey: _sectionKeys[5]),
-                // Placeholders for sections until they are built
-                _buildSectionPlaceholder(6, 'Footer', 200, keyless: true),
-              ],
-            ),
-          ),
+      body: LayoutBuilder(
+        builder: (context, constraints) {
+          final showTopNav = ResponsiveLayout.isDesktop(context) || ResponsiveLayout.isTablet(context);
 
-          // Top Nav (Tablet/Desktop)
-          if (!ResponsiveLayout.isMobile(context))
-            Positioned(
-              top: 0,
-              left: 0,
-              right: 0,
-              child: TopNavBar(
-                scrollController: _scrollController,
-                isScrolled: _isScrolled,
-                onNavTap: _scrollToSection,
-                activeIndex: _activeIndex,
+          return Stack(
+            children: [
+              SingleChildScrollView(
+                controller: _scrollController,
+                child: Column(
+                  children: [
+                    HeroSection(sectionKey: _sectionKeys[0]),
+                    AboutSection(sectionKey: _sectionKeys[1]),
+                    SkillsSection(sectionKey: _sectionKeys[2]),
+                    ProjectsSection(sectionKey: _sectionKeys[3]),
+                    ExperienceSection(sectionKey: _sectionKeys[4]),
+                    ContactSection(sectionKey: _sectionKeys[5]),
+                    const FooterSection(),
+                  ],
+                ),
               ),
-            ),
+
+              // Fixed Social Links Strip on Desktop
+              if (ResponsiveLayout.isDesktop(context)) const SocialLinksStrip(),
+
+              // Web / Tablet Top Navigation Bar
+              if (showTopNav)
+                Positioned(
+                  top: 0,
+                  left: 0,
+                  right: 0,
+                  child: TopNavBar(
+                    scrollController: _scrollController,
+                    isScrolled: _isScrolled,
+                    onNavTap: _scrollToSection,
+                    activeIndex: _activeIndex,
+                  ),
+                ),
             
-          // Bottom Nav (Mobile)
-          if (ResponsiveLayout.isMobile(context))
-            Positioned(
-              bottom: 0,
-              left: 0,
-              right: 0,
-              child: BottomNavBar(
-                activeIndex: _activeIndex,
-                onNavTap: _scrollToSection,
-              ),
-            ),
-        ],
+              // Bottom Nav (Mobile)
+              if (ResponsiveLayout.isMobile(context))
+                Positioned(
+                  bottom: 0,
+                  left: 0,
+                  right: 0,
+                  child: BottomNavBar(
+                    activeIndex: _activeIndex,
+                    onNavTap: _scrollToSection,
+                  ),
+                ),
+            ],
+          );
+        },
       ),
     );
   }
