@@ -33,4 +33,7 @@ class AppStrings {
 
   // Experience Section
   static const String experienceTitle = 'Career Journey';
+
+  // Contact Section
+  static const String contactTitle = 'Let\'s Connect';
 }

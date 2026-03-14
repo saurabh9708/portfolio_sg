@@ -6,6 +6,7 @@ import '../../hero_header/presentation/screens/hero_section.dart';
 import '../../about/presentation/screens/about_section.dart';
 import '../../skills/presentation/screens/skills_section.dart';
 import '../../projects/presentation/screens/projects_section.dart';
+import '../../experience/presentation/screens/experience_section.dart';
 
 class MainScreen extends StatefulWidget {
   const MainScreen({super.key});
@@ -20,7 +21,7 @@ class _MainScreenState extends State<MainScreen> {
   int _activeIndex = 0;
 
   // We will pass these keys to each section to scroll to them.
-  final List<GlobalKey> _sectionKeys = List.generate(5, (index) => GlobalKey());
+  final List<GlobalKey> _sectionKeys = List.generate(6, (index) => GlobalKey());
 
   @override
   void initState() {
@@ -82,9 +83,10 @@ class _MainScreenState extends State<MainScreen> {
                 AboutSection(sectionKey: _sectionKeys[1]),
                 SkillsSection(sectionKey: _sectionKeys[2]),
                 ProjectsSection(sectionKey: _sectionKeys[3]),
+                ExperienceSection(sectionKey: _sectionKeys[4]),
                 // Placeholders for sections until they are built
-                _buildSectionPlaceholder(4, 'Contact Section', 700),
-                _buildSectionPlaceholder(5, 'Footer', 200, keyless: true),
+                _buildSectionPlaceholder(5, 'Contact Section', 700, keyless: true),
+                _buildSectionPlaceholder(6, 'Footer', 200, keyless: true),
               ],
             ),
           ),
