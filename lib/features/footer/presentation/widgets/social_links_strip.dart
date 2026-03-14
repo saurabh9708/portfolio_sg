@@ -19,7 +19,7 @@ class SocialLinksStrip extends StatelessWidget {
       child: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
-          const SocialLinksRow(isVertical: true),
+          const SocialLinksRow(vertical: true),
           const SizedBox(height: 24),
           // Vertical Connecting Line
           Container(

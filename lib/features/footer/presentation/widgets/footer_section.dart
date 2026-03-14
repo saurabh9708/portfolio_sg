@@ -39,7 +39,7 @@ class _FooterSectionState extends State<FooterSection> {
           children: [
             // Only show social links on Mobile/Tablet in the footer, Web has a fixed side strip
             if (!ResponsiveLayout.isDesktop(context)) ...[
-              const SocialLinksRow(isVertical: false)
+              const SocialLinksRow(vertical: false)
                   .animate(target: _isVisible ? 1 : 0)
                   .fadeIn(duration: 600.ms)
                   .slideY(begin: 0.2),

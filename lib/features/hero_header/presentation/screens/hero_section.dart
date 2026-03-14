@@ -5,9 +5,9 @@ import '../../../../core/constants/app_sizes.dart';
 import '../../../../core/constants/app_strings.dart';
 import '../../../../core/utils/responsive_util.dart';
 import '../../../../core/widgets/typewriter_text.dart';
-import 'widgets/animated_mesh_background.dart';
-import 'widgets/profile_image_widget.dart';
-import 'widgets/social_links_row.dart';
+import '../widgets/animated_mesh_background.dart';
+import '../widgets/profile_image_widget.dart';
+import '../widgets/social_links_row.dart';
 
 class HeroSection extends StatelessWidget {
   final GlobalKey sectionKey;

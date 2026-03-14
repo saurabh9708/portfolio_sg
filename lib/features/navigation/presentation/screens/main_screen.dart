@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 import '../../../../core/utils/responsive_util.dart';
 import '../widgets/top_nav_bar.dart';
 import '../widgets/bottom_nav_bar.dart';
-import '../../hero_header/presentation/screens/hero_section.dart';
-import '../../about/presentation/screens/about_section.dart';
-import '../../skills/presentation/screens/skills_section.dart';
-import '../../projects/presentation/screens/projects_section.dart';
-import '../../experience/presentation/screens/experience_section.dart';
-import '../../contact/presentation/screens/contact_section.dart';
-import '../../footer/presentation/widgets/footer_section.dart';
-import '../../footer/presentation/widgets/social_links_strip.dart';
+import '../../../hero_header/presentation/screens/hero_section.dart';
+import '../../../about/presentation/screens/about_section.dart';
+import '../../../skills/presentation/screens/skills_section.dart';
+import '../../../projects/presentation/screens/projects_section.dart';
+import '../../../experience/presentation/screens/experience_section.dart';
+import '../../../contact/presentation/screens/contact_section.dart';
+import '../../../footer/presentation/widgets/footer_section.dart';
+import '../../../footer/presentation/widgets/social_links_strip.dart';
 
 class MainScreen extends StatefulWidget {
   const MainScreen({super.key});
